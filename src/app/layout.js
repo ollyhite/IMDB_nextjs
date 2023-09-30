@@ -1,9 +1,8 @@
+"use client";
 import "./globals.css";
 import Header from "@/components/Header";
 import Navbar from "@/components/Navbar";
-// import { Inter } from "next/font/google";
-
-// const inter = Inter({ subsets: ["latin"] });
+import Providers from "./Providers";
 
 export const metadata = {
   title: "IMDB Clone",
@@ -15,8 +14,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       {/* <body className={inter.className}>{children}</body> */}
       <body>
-        <Header />
-        {children}
+        <Providers>
+          <Header />
+          {children}
+        </Providers>
       </body>
     </html>
   );
