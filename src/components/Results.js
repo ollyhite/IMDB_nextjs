@@ -1,10 +1,5 @@
-export default function Results({ results }) {
+export default function Results({ data }) {
   return (
-    <div>
-      {results &&
-        results.map((result) => (
-          <h1 key={result.id}>{result.original_title}</h1>
-        ))}
-    </div>
+    <div>{data && data.map((i) => <h1 key={i.id}>{i.original_title}</h1>)}</div>
   );
 }
