@@ -1,5 +1,9 @@
+import Card from "./Card";
+
 export default function Results({ data }) {
   return (
-    <div>{data && data.map((i) => <h1 key={i.id}>{i.original_title}</h1>)}</div>
+    <div className="sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 max-w-6xl mx-auto py-4">
+      {data && data.map((i) => <Card key={i.id} data={i} />)}
+    </div>
   );
 }
