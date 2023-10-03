@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Live Link
 
-## Getting Started
+https://imdb-nextjs-peiyunhite.vercel.app/
 
-First, run the development server:
+## Description
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+This is a IMDB website build with Next.js. Can see recently trending or top rated movies, also can search the movie you want for keywords.
+
+## Table of Contents
+
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Built_With](#built-with)
+- [API_Resources](#api-resources)
+- [License](#license)
+
+## Installation
+
+```
+ git clone https://github.com/ollyhite/IMDB_nextjs.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- create a file
+- open ternimal and cd the file name you created
+- git clone with my repo link (can copy Installation section's first line)
+- cd in the IMDB_nextjs file
+- enter "npm i" to install the node_module
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+    npm i
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- next run npm start to open the website
 
-## Learn More
+```
+    npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Usage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![screenshot](./src/components/image/screenshot_IMDB.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Built With
 
-## Deploy on Vercel
+- Next.js
+- Tailwind CSS
+- Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## API Resources
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- react-icons
+- next-themes
+- @tailwindcss/line-clamp
+
+
+## Author Info & Getting Help
+
+- [Pei-Yun Hite's LinkedIn](https://www.linkedin.com/in/peiyunhite/)
+- [Pei-Yun Hite's Github Link](https://github.com/ollyhite)
+- [Pei-Yun Hite's Portfolio](https://www.peiyunhite.com/)
+- Send Qquestions or suggestions for changes to the readme_generator_tool project maintainer, [Pei-Yun Hite](mailto:peiyunhite@gmail.com?subject=[GitHub]%20employee_organizer%20) , for consideration.
+
+## License
+
+MIT License
+Copyright (c) 2023 Pei-Yun Hite
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+[https://choosealicense.com/licenses/mit/](https://choosealicense.com/licenses/mit/)
