@@ -52,7 +52,7 @@ export default function Home({ searchParams }) {
   console.log("data in Home", data);
   return (
     <div>
-      <Results data={data} />{" "}
+      <Results data={data} />
     </div>
   );
 }
