@@ -12,7 +12,7 @@ export default function MoviePage({ params }) {
     console.log("movieId", movieId);
     const fetchData = async () => {
       const response = await fetch(
-        `https://api.themoviedb.org/3/movie/${movieId}?api_key=${process.env.API_KEY}`
+        `https://api.themoviedb.org/3/movie/${movieId}?api_key=061a048a192b752faa0042d33e529e70`
       );
       if (response.ok) {
         return response.json();

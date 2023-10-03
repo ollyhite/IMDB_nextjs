@@ -11,7 +11,7 @@ export default function SearchPage({ params }) {
   useEffect(() => {
     const fetchData = async (params) => {
       const response = await fetch(
-        `https://api.themoviedb.org/3/search/movie?api_key=${process.env.API_KEY}&query=${params.searchTerm}&language=en-US&include_adult=false`
+        `https://api.themoviedb.org/3/search/movie?api_key=061a048a192b752faa0042d33e529e70&query=${params.searchTerm}&language=en-US&include_adult=false`
       );
       if (response.ok) {
         return response.json();
